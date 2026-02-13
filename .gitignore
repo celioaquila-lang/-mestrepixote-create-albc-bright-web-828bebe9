@@ -1,0 +1,7 @@
+.cache/
+.browser_data_dir/
+.logs/
+.npm/
+.nvm/
+.pki/
+.secrets/
