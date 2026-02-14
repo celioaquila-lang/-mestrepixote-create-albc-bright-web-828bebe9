@@ -16,19 +16,24 @@
         .header {
             padding-top: 60px;
             padding-left: 80px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .step-badge {
+            background: #38BDF8;
+            color: #0F172A;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         h2 {
             font-size: 48px;
             color: #F8FAFC;
             margin: 0;
-        }
-        .step-number {
-            color: #38BDF8;
-            font-weight: 700;
-            font-size: 20px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
         }
         .content-grid {
             display: flex;
@@ -78,12 +83,19 @@
             color: #38BDF8;
             font-weight: bold;
         }
+        .cta-text {
+            color: #38BDF8;
+            font-weight: 700;
+            cursor: pointer;
+            border-bottom: 2px solid #38BDF8;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
     <div class="slide-container">
         <div class="header">
-            <div class="step-number">Passo 2</div>
+            <div class="step-badge">Passo 2 de 5</div>
             <h2>Staging e .gitignore</h2>
         </div>
         <div class="content-grid">
@@ -100,6 +112,7 @@
                     <span class="dot">→</span>
                     <span>Funciona como um "rascunho" antes da versão final.</span>
                 </div>
+                <div style="padding-top: 30px;"><span class="cta-text">Próximo: O Commit →</span></div>
             </div>
             <div class="column">
                 <h3>O Arquivo .gitignore</h3>
@@ -115,6 +128,7 @@
                     <span class="dot">→</span>
                     <span>Mantém o repositório limpo e seguro.</span>
                 </div>
+                <div style="padding-top: 30px;"><span class="cta-text">Próximo: O Commit →</span></div>
             </div>
         </div>
     </div>

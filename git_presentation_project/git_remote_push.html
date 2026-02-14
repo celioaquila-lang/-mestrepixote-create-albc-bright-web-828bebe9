@@ -16,6 +16,19 @@
         .header {
             padding-top: 60px;
             padding-left: 80px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .step-badge {
+            background: #38BDF8;
+            color: #0F172A;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         h2 {
             font-size: 48px;
@@ -38,6 +51,20 @@
             padding-right: 40px;
             border-radius: 16px;
         }
+        .step-number-circle {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #38BDF8;
+            color: #0F172A;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
+            margin-right: 12px;
+        }
         .step-title {
             color: #38BDF8;
             font-size: 20px;
@@ -45,6 +72,8 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 10px;
+            display: flex;
+            align-items: center;
         }
         .step-desc {
             color: #F8FAFC;
@@ -62,27 +91,43 @@
             font-size: 20px;
             border-radius: 4px;
         }
+        .cta-text {
+            color: #38BDF8;
+            font-weight: 700;
+            cursor: pointer;
+            border-bottom: 2px solid #38BDF8;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
     <div class="slide-container">
         <div class="header">
+            <div class="step-badge">Passos 4 e 5 de 5</div>
             <h2>Sincronização Remota</h2>
         </div>
         <div class="content-stack">
             <div class="step-panel">
-                <div class="step-title">Passo 4: Conectar ao Remoto</div>
+                <div class="step-title">
+                    <span class="step-number-circle">4</span>
+                    Conectar ao Remoto
+                </div>
                 <div class="step-desc">Vincule seu repositório local a um servidor (ex: GitHub).</div>
                 <div class="code-box">
                     git remote add origin https://github.com/usuario/repo.git
                 </div>
+                <p style="padding-top: 20px; color: #94A3B8; font-size: 16px;"><span class="cta-text">Próximo: Enviar Alterações →</span></p>
             </div>
             <div class="step-panel">
-                <div class="step-title">Passo 5: Enviar Alterações</div>
+                <div class="step-title">
+                    <span class="step-number-circle">5</span>
+                    Enviar Alterações
+                </div>
                 <div class="step-desc">Suba seus commits locais para a nuvem.</div>
                 <div class="code-box">
                     git push -u origin main
                 </div>
+                <p style="padding-top: 20px; color: #94A3B8; font-size: 16px;"><span class="cta-text">Próximo: Resumo e Conclusão →</span></p>
             </div>
         </div>
     </div>

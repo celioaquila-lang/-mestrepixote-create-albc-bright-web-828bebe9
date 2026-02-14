@@ -54,6 +54,22 @@
             padding-right: 30px;
             border-radius: 12px;
             min-height: 120px;
+            position: relative;
+        }
+        .benefit-number {
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            width: 40px;
+            height: 40px;
+            background: #38BDF8;
+            color: #0F172A;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
         }
         .benefit-item i {
             color: #38BDF8;
@@ -74,6 +90,13 @@
             color: #38BDF8;
             font-weight: 700;
         }
+        .cta-link {
+            color: #38BDF8;
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 2px solid #38BDF8;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -85,19 +108,23 @@
             <div class="main-panel">
                 <p>O Git é um <span class="accent-text">sistema de controle de versão distribuído</span>, essencial para rastrear alterações no código-fonte durante o desenvolvimento de software.</p>
                 <p style="padding-top: 20px;">Ele permite que múltiplos desenvolvedores colaborem de forma assíncrona, mantendo um histórico completo e seguro de todas as modificações realizadas no projeto.</p>
+                <p style="padding-top: 30px;"><span class="accent-text">→ Pronto para começar?</span> <span class="cta-link">Veja o próximo passo</span></p>
             </div>
             <div class="side-panel">
                 <div class="benefit-item">
+                    <div class="benefit-number">1</div>
                     <i class="fas fa-users"></i>
                     <div class="benefit-title">Colaboração Eficiente</div>
                     <p style="font-size: 16px;">Trabalhe em equipe sem conflitos de código.</p>
                 </div>
                 <div class="benefit-item">
+                    <div class="benefit-number">2</div>
                     <i class="fas fa-history"></i>
                     <div class="benefit-title">Histórico Completo</div>
                     <p style="font-size: 16px;">Acesse qualquer versão anterior do seu projeto.</p>
                 </div>
                 <div class="benefit-item">
+                    <div class="benefit-number">3</div>
                     <i class="fas fa-shield-alt"></i>
                     <div class="benefit-title">Segurança de Dados</div>
                     <p style="font-size: 16px;">Backup distribuído em cada máquina local.</p>

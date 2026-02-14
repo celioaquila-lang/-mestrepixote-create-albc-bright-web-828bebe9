@@ -40,6 +40,7 @@
             justify-content: space-between;
             gap: 30px;
             padding-top: 20px;
+            margin-bottom: 40px;
         }
         .benefit-card {
             flex: 1;
@@ -60,11 +61,39 @@
             color: #94A3B8;
             line-height: 1.5;
         }
-        .footer-note {
-            padding-top: 60px;
-            font-family: 'Space Mono', monospace;
+        .cta-button {
+            background: linear-gradient(135deg, #38BDF8 0%, #0EA5E9 100%);
+            color: #0F172A;
+            padding: 18px 50px;
+            font-size: 20px;
+            font-weight: 700;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(56, 189, 248, 0.3);
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(56, 189, 248, 0.5);
+        }
+        .trust-badge {
+            font-size: 16px;
+            color: #64748B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .trust-badge::before {
+            content: "✓";
             color: #38BDF8;
-            font-size: 24px;
+            font-weight: bold;
+            font-size: 18px;
         }
         .decor-circle {
             position: absolute;
@@ -101,9 +130,8 @@
                     <p>Histórico completo e backup distribuído.</p>
                 </div>
             </div>
-            <div class="footer-note">
-                Obrigado! Perguntas?
-            </div>
+            <button class="cta-button">Comece Sua Jornada Git Agora</button>
+            <div class="trust-badge">Junte-se a milhares de desenvolvedores • Suporte 24/7</div>
         </div>
     </div>
 </body>
