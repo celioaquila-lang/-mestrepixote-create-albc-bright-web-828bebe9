@@ -1,0 +1,108 @@
+{
+  "project_info": {
+    "title": "Configurando um Repositório Git",
+    "created": 1771020553.2453952,
+    "last_updated": 1771020627.7348716,
+    "total_slides": 8
+  },
+  "slides": [
+    {
+      "id": "title_slide",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "introduction",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "git_init",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "git_add_gitignore",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "git_commit",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "git_remote_push",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "summary_table",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "conclusion",
+      "state": "edited",
+      "pageNum": 8
+    }
+  ],
+  "outline": [
+    {
+      "id": "title_slide",
+      "title": "Configurando um Repositório Git",
+      "summary": "Slide de título com o tema da apresentação e autor.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "introduction",
+      "title": "O que é o Git?",
+      "summary": "Explicação sobre o sistema de controle de versão e sua importância.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "git_init",
+      "title": "Passo 1: Inicialização Local",
+      "summary": "Como usar o comando git init para começar um repositório.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "git_add_gitignore",
+      "title": "Passo 2: Staging e .gitignore",
+      "summary": "Preparando arquivos para commit e ignorando arquivos desnecessários.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "git_commit",
+      "title": "Passo 3: O Commit",
+      "summary": "Salvando snapshots do projeto com mensagens descritivas.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "git_remote_push",
+      "title": "Passo 4 e 5: Sincronização Remota",
+      "summary": "Conectando ao GitHub e enviando o código com git push.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "summary_table",
+      "title": "Resumo de Comandos",
+      "summary": "Tabela comparativa com os principais comandos abordados.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusão e Próximos Passos",
+      "summary": "Encerramento e benefícios do uso do Git.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

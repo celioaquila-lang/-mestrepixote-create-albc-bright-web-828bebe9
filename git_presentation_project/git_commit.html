@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <style>
+        html, body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #0F172A;
+            font-family: 'Inter', sans-serif;
+            color: #94A3B8;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+        }
+        h2 {
+            font-size: 48px;
+            color: #F8FAFC;
+            margin: 0;
+        }
+        .content-flex {
+            display: flex;
+            padding-top: 60px;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 60px;
+            align-items: flex-start;
+        }
+        .text-section {
+            flex: 1;
+        }
+        .code-section {
+            flex: 1.2;
+            background: #1E293B;
+            border: 1px solid #38BDF8;
+            border-radius: 12px;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            min-height: 240px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        .code-block {
+            font-family: 'Space Mono', monospace;
+            color: #38BDF8;
+            font-size: 28px;
+            line-height: 1.4;
+        }
+        .code-comment {
+            color: #64748B;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 24px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .step-number {
+            color: #38BDF8;
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        .highlight-box {
+            background: rgba(56, 189, 248, 0.1);
+            border-left: 4px solid #38BDF8;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="step-number">Passo 3</div>
+            <h2>O Commit</h2>
+        </div>
+        <div class="content-flex">
+            <div class="text-section">
+                <p>Um <span style="color: #F8FAFC;">commit</span> é um "snapshot" permanente do seu projeto no histórico do Git.</p>
+                <p style="padding-top: 10px;">Ele registra quem fez a alteração, quando e, o mais importante, <span style="color: #38BDF8;">o que foi alterado</span> através da mensagem.</p>
+                <div class="highlight-box">
+                    <p style="font-size: 18px; margin-bottom: 0;"><strong>Dica:</strong> Escreva mensagens claras e no imperativo, como "Adiciona funcionalidade X" ou "Corrige bug Y".</p>
+                </div>
+            </div>
+            <div class="code-section">
+                <div class="code-comment"># Salva as mudanças do staging:</div>
+                <div class="code-block">git commit -m "Mensagem descritiva"</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

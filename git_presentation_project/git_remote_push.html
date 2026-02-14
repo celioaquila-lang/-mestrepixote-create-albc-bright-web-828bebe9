@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <style>
+        html, body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #0F172A;
+            font-family: 'Inter', sans-serif;
+            color: #94A3B8;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+        }
+        h2 {
+            font-size: 48px;
+            color: #F8FAFC;
+            margin: 0;
+        }
+        .content-stack {
+            display: flex;
+            flex-direction: column;
+            padding-top: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 30px;
+        }
+        .step-panel {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border-radius: 16px;
+        }
+        .step-title {
+            color: #38BDF8;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .step-desc {
+            color: #F8FAFC;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .code-box {
+            background: #1E293B;
+            border-left: 4px solid #38BDF8;
+            padding-top: 20px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-family: 'Space Mono', monospace;
+            color: #38BDF8;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>Sincronização Remota</h2>
+        </div>
+        <div class="content-stack">
+            <div class="step-panel">
+                <div class="step-title">Passo 4: Conectar ao Remoto</div>
+                <div class="step-desc">Vincule seu repositório local a um servidor (ex: GitHub).</div>
+                <div class="code-box">
+                    git remote add origin https://github.com/usuario/repo.git
+                </div>
+            </div>
+            <div class="step-panel">
+                <div class="step-title">Passo 5: Enviar Alterações</div>
+                <div class="step-desc">Suba seus commits locais para a nuvem.</div>
+                <div class="code-box">
+                    git push -u origin main
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

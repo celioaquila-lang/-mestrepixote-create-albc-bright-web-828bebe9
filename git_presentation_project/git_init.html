@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <style>
+        html, body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #0F172A;
+            font-family: 'Inter', sans-serif;
+            color: #94A3B8;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+        }
+        h2 {
+            font-size: 48px;
+            color: #F8FAFC;
+            margin: 0;
+        }
+        .content-flex {
+            display: flex;
+            padding-top: 60px;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 60px;
+            align-items: flex-start;
+        }
+        .text-section {
+            flex: 1;
+        }
+        .code-section {
+            flex: 1.2;
+            background: #1E293B;
+            border: 1px solid #38BDF8;
+            border-radius: 12px;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            min-height: 200px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+        .code-block {
+            font-family: 'Space Mono', monospace;
+            color: #38BDF8;
+            font-size: 32px;
+        }
+        .code-comment {
+            color: #64748B;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 24px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .step-number {
+            color: #38BDF8;
+            font-weight: 700;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="step-number">Passo 1</div>
+            <h2>Inicialização Local</h2>
+        </div>
+        <div class="content-flex">
+            <div class="text-section">
+                <p>O primeiro passo é transformar seu diretório de projeto em um repositório Git.</p>
+                <p style="padding-top: 20px;">Ao executar o comando de inicialização, o Git cria uma pasta oculta <span style="color: #F8FAFC;">.git</span> que gerencia todo o histórico de versões.</p>
+            </div>
+            <div class="code-section">
+                <div class="code-comment"># No terminal, dentro da pasta do projeto:</div>
+                <div class="code-block">git init</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
